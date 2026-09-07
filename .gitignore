@@ -1,0 +1,36 @@
+# Confidential or local data
+datasets/
+data/
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.jsonl
+*.db
+*.sqlite
+
+# Source briefs and local exports
+client_requests.pdf
+meta_data.txt
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment and credentials
+.env
+.env.*
+!.env.example
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
