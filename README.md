@@ -11,6 +11,19 @@ The project combines a reproducible Jupyter analysis with a client-facing presen
 - Includes a client-facing presentation alongside the notebook so findings can be communicated to non-technical stakeholders.
 - Keeps confidential source data out of version control while retaining executed notebook outputs for review.
 
+## Analysis approach
+
+The workflow follows a simple business-analysis pipeline:
+
+1. Load and validate campaign, product, store, and transaction-level data.
+2. Join the source tables into an analysis-ready dataset.
+3. Calculate pre- and post-promotion revenue and unit metrics.
+4. Aggregate results by city, category, store, and promotion type.
+5. Compare incremental sold units and incremental revenue to identify where promotions created value.
+6. Visualize the findings and translate them into client-facing recommendations.
+
+This structure keeps the analysis reproducible while separating raw calculations from the final business interpretation.
+
 ## Business questions
 
 The analysis answers seven questions:
