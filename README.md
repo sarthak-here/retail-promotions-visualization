@@ -4,6 +4,13 @@ An exploratory retail analytics project that measures how promotional campaigns 
 
 The project combines a reproducible Jupyter analysis with a client-facing presentation. The source datasets are intentionally excluded because they are confidential.
 
+## Project highlights
+
+- Converts promotional sales data into business-focused insights across stores, cities, categories, and campaign types.
+- Uses reproducible analysis to compare incremental sold units and incremental revenue rather than relying on raw sales totals alone.
+- Includes a client-facing presentation alongside the notebook so findings can be communicated to non-technical stakeholders.
+- Keeps confidential source data out of version control while retaining executed notebook outputs for review.
+
 ## Business questions
 
 The analysis answers seven questions:
@@ -89,4 +96,3 @@ The repository includes previously executed notebook outputs so the analysis can
 ## Data privacy
 
 No raw dataset, source assignment document, credentials, or personally identifiable information is included in this repository. The `.gitignore` rules prevent common dataset formats and local notebook artifacts from being committed accidentally.
-
