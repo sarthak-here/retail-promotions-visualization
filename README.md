@@ -104,8 +104,6 @@ retail-promotions-visualization/
 
 4. Open `notebooks/retail_promotions_analysis.ipynb` and run all cells.
 
-The repository includes previously executed notebook outputs so the analysis can be reviewed without access to the confidential data.
-
 ## Data privacy
 
 No raw dataset, source assignment document, credentials, or personally identifiable information is included in this repository. The `.gitignore` rules prevent common dataset formats and local notebook artifacts from being committed accidentally.
